@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tram's Learning Space</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta http-equiv="Content-Type" content="text/html">
+    </head>
+    <body>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+            * {
+                font-family: 'Quicksand', sans-serif;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+            }
+            nav {
+                background-image: linear-gradient(to right, #82589F, #D6A2E8);
+            }
+            #main-menu {
+                display:flex;
+            }
+            #main-menu li a {
+                position: relative;
+                color: white;
+                text-decoration: none;
+                display: block;
+                padding: 15px 15px;  
+            }
+            #main-menu li:hover a {
+                background-color: #f1c40f;
+            }
+            #banner a img{
+                display: block;
+                max-width: 100%;
+                margin-top: 15px;
+            }
+            .main-content{
+                display: block;
+                margin-top: 20px;
+                font-size: larger;
+            }
+            .main-content h1{
+                display: block;
+                color:#49156d;
+                border-bottom: rgb(229, 229, 229) solid 6px;
+            }
+            .main-content h2{
+                color:#49156d;
+                margin-top: 20px;
+                border-bottom: rgb(229, 229, 229) solid 3px;
+            }
+           .main-content ul{
+                font-weight: bold;
+           }
+            .main-content li{
+                margin-left: 20px;
+                list-style-type: circle;
+                font-size: 18px;
+            }
+           #web-body{
+                padding: 75px 20px;
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+            
+        </style>
+        <div id="web-head">
+            <div>
+                <nav>
+                    <ul id="main-menu">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">POSTS</a></li>
+                        <li style="position:absolute; right: 0px;"><a href="">ABOUT ME</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="banner">
+                <div>
+                    <a href=""><img src=""></a>
+                </div>
+            </div>
+        </div>
+        <div id="web-body">
+            <div class="main-content">
+                    <h1>MODULE 1: CLOUD CONCEPTS OVERVIEW</h1>
+                    <h2>I - Khái niệm Cloud computing</h2>
+                    <p>
+                        <li style="margin-top: 15px;">Cloud computing là dịch vụ cung cấp compute power, cơ sở dữ liệu, kho lưu trữ, ứng dụng và các tài nguyên CNTT khác theo yêu cầu thông qua internet trên cơ sở thanh toán theo mức sử dụng</li>
+                     <!--   <a style="display: block; text-align: center;" href=""><img src=""></a> -->
+                        <li>Các tài nguyên này chạy trên các máy chủ được đặt ở các trung tâm dữ liệu lớn khác nhau và tại nhiều nơi khác nhau trên thế giới.</li>
+                        <li>Khuyết điểm của mô hình computing truyền thống:</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Yêu cầu lớn về diện tích, nhân lực để bảo trì, chi phí đắt đỏ,...</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Là một chu kỳ dài hạn liên quan đến việc mua sắm về phần cứng để phục vụ cho việc sửa chữa, bảo trì cơ sở hạ tầng</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Để xây dựng một mô hình computing truyền thống, mình cần phải đoán mức dung lượng lý thuyết (dung lượng tối đa có thể sử dụng). Một lúc nào đó nếu không đủ dung lượng thì mình lại phải tốn thêm nhiều chi phí, thời gian và công sức để nâng cấp.</li>
+                       <!-- <a style="display: block; text-align: center;" href=""><img src=""></a> -->
+                        <li>Nhắc đến computing truyền thống thì người ta nghĩ ngay đến phần cứng, trong khi ta có thể coi cloud computing như một phần mềm. Cloud computing khắc phục được những nhược điểm của mô hình computing truyền thống. Chúng ta có thể loại mái lựa chọn cloud phù hợp với nhu cầu của bản thân hoặc doanh nghiệp, tiết kiệm chi phí, thời gian, nhân lực,... và hạn chế được nhiều rủi ro</li>                   </p>
+                     <!--   <a style="display: block; text-align: center;" href=""><img src=""></a> -->
+                    <h2>II - Mô hình cloud computing</h2>
+                    <p>
+                        <ul style="margin-top: 15px;">1. Cơ sở hạ tầng dưới dạng dịch vụ (Infrastructure as a service - IaaS)</ul>
+                        <li>IaaS là mô hình mà người dùng có thể đưa ra yêu cầu và cấu hình tài nguyên cần thiết để chạy các hệ thống CNTT hoặc ứng dụng. Người dùng thực hiện việc triển thai, duy trì và hỗ trợ các ứng dụng, còn nhà cung cấp IaaS thực hiện việc duy trì cơ sở hạ tầng vật lý.</li>
+                        <li>IaaS hoạt động dựa trên nguyên tắc ảo hóa. Hệ thống tự động tạo ra các phiên bản kỹ thuật số của cơ sở hạ tầng cơ bản. Những tài nguyên điện toán được ảo hóa này mô phỏng hành vi của các tài nguyên vật lý, mọi thứ hoạt động như một tài nguyên vật lý</li>
+                        <li>Sử dụng IaaS trong những trường hợp như:</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Phân tích lượng lớn dữ liệu cần compute power lớn</li>
+                            <li style="list-style: none; margin-left: 50px;">- Website hosting</li>
+                            <li style="list-style: none; margin-left: 50px;">- Phát triển ứng dụng</li>
+                        <li>Lợi ích IaaS mang lại cho các doanh nghiệp:</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Tốc độ</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Hiệu năng</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Độ tin cậy</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Sao lưu</ul></li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Phục hồi</li>
+                        <ul>2. Phần mềm dưới dạng dịch vụ (Software as a service - SaaS)</ul>
+                        <li>SaaS là mô hình phần mềm dựa trên cơ sở đám mây cung cấp các ứng dụng cho người dùng cuối thông qua trình duyệt internet. SaaS cung cấp các dịch vụ máy chủ và ứng dụng cho khách hàng. Với SaaS, người dùng không cần phải suy nghĩ đến việc làm thế nào để bảo trì máy chủ hoặc quản lý các cơ sở hạ tầng cơ bản, mà chỉ cần tính toán mình sẽ sử dụng phần mềm này như thế nào. Về giá cả, người dùng sẽ trả theo mức sử dụng (gói đăng ký), thay vì mua trọn gói bao gồm cả những ứng dụng có thể không cần dùng đến</li>
+                        <li>SaaS cho phép doanh nghiệp tiếp cận đến những phần mềm có tính năng mạnh mẽ mà trước đây doanh nghiệp khó tiếp cận vì quá đắt đỏ hoặc tiêu tốn nhiều tài nguyên để duy trì ở môi trường tại chỗ. Các nhà cung cấp SaaS quản lý phần cứng, công cụ phàn mềm và ứng dụng ở trung tâm dữ liệu của riêng họ. Người dùng có thể truy cập đến phần mềm một cách trực tiếp thông qua trình duyệt hoặc ứng dụng di động. Một vài lợi ích của SaaS:</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Khả năng truy cập đám mây: Có thể truy cập đến SaaS từ bất kỳ thiết bị nào miễn là có kết nối internet.</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Tiết kiệm chi phí, thời gian: Thông qua mô hình các gói đăng ký như giấy phép, cài đặt hoặc quản lý cơ sở hạ tầng</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Độ tin cậy</li>
+                        <li>SaaS hoạt động thông qua mô hình cloud delivery. Nhà cung cấp SaaS thường lưu trữ các ứng dụng và dữ liệu ở máy chủ và cơ sở dữ liệu của riêng họ, hoặc sử dụng máy chủ của bên nhà cung cấp cloud thứ 3. Nhà cung cấp SaaS cũng thực hiện việc quản lý các nền tảng, hệ điều hành và phần mềm trung gian</li>
+                        <ul>3. Nền tảng dưới dạng dịch vụ (Platform as a service - PaaS)</ul>
+                        <li>PaaS là một mô hình trong đó các nhà cung cấp PaaS sẽ cung cấp những nền tảng hoàn chỉnh (phần cứng, phần mềm, cơ sở hạ tầng, mạng) cho phép người dùng phát triển, triển khai và quản lý các ứng dụng</li>
+                        <li>PaaS cung cấp nhiều lớp ứng dụng như hệ điều hành, các phần mềm trung gian (cơ sở dữ liệu, thư viện cơ bản, công cụ phát triển). PaaS giúp người dùng linh hoạt hơn trong việc xây dựng và triển khai ứng dụng qua internet</li>
+                        <li>Ưu điểm của PaaS:</li>
+                            <li style="list-style-type: none;margin-left: 50px;">- Giúp ứng dụng được triển khai một cách nhanh chóng bằng việc giúp người dùng loại bỏ hoàn toàn nhiệm vụ bảo trì</li>
+                            <li style="list-style-type: none;margin-left: 50px;">- Giảm chi phí quản lý hạ tầng và hệ thống máy chủ, đơn giản hóa công việc cân bằng tải</li>
+                            <li style="list-style-type: none;margin-left: 50px;">- Dễ dàng mở rộng tài nguyên theo yêu cầu phát triển ứng dụng</li>
+                            <li style="list-style-type: none;margin-left: 50px;">- Cung cấp môi trường tương tác linh hoạt, mọi lúc mọi nơi qua internet</li>
+                        <li>Phân loại PaaS:</li>
+                            <li style="list-style-type: none; margin-left: 50px;">- Phân loại theo mức độ chia sẻ: Public PaaS, Private PaaS, Hybrid PaaS</li>   
+                            <li style="list-style-type: none; margin-left: 50px;">Phân loại theo đặc tính của nền tảng hạ tầng và đặc điểm khác: cPaaS (communications), mPaaS (mobile), iPaaS (integration),...</li>
+                    </p>
+                    <!--    <a style="display: block; text-align: center;" href=""><img src=""></a> -->
+                </div>         
+        </div>
+    </body>
+</html>
